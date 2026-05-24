@@ -4,6 +4,7 @@
  * @desc      Azure Event Hub Trigger function utilizing the Node.js Programming Model v4.
  *            Listens to telemetry streams on the built-in Event Hub, routes payloads
  *            by 'type', and POSTs them to the backend with secure HMAC authorization.
+ * @author    Ahmed Toba Mahmoud 
  * ===================================================================================
  */
 const { app } = require("@azure/functions");
