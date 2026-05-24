@@ -1,12 +1,16 @@
 {
   "name": "smart-university-iot-bridge",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Azure IoT Hub telemetry forwarding bridge to Node.js backend",
+  "main": "src/functions/*.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "func start",
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
